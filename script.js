@@ -1,4 +1,4 @@
-var contador = 0;
+var contador = 1;
 function fondodark() {
     var fondodark = document.getElementsByTagName("body")[0];
     fondodark.style.backgroundColor = "#000000";
@@ -20,8 +20,8 @@ function checker() {
     }
 }
 function contar(){
-    if(contador % 5 == 0){
+    if(contador % 6 == 0){
         alert("Es necesario cambiar tantas veces?👀")
-        contador=0;
+        contador=1;
     }
 }
